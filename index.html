@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctorelayout</title>
+    <style>
+        body{
+        margin: 0vh;
+        }
+        *{
+            text-align: center;
+        }
+       
+.nav{
+    width: 30%;
+    
+    margin: auto;
+    
+}
+.grid {
+    display: grid;
+    width: 68%;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+    
+    border-radius: 5px;
+    gap:15px;
+
+}
+@media only screen and (min-width:600px) and (max-width:1000px){
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width:599px){
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+p {
+    padding: 0vh 1vw 0vw 1vw;
+}
+.grid>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.grid1 {
+    display: grid;
+    width: 68%;
+    margin: auto;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 5vh;
+    border-radius: 5px;
+    
+}
+.grid1>div>img{
+    justify-content: center;
+    
+}
+@media only screen and (min-width:600px) and (max-width:1000px){
+    .grid1{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width:599px){
+    .grid1{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+#btn1{
+    background-color: rgb(242, 234, 234);
+    font-size: 12px;
+    border:1px white;
+    border-radius: 10px;
+    color: rgb(18, 18, 196);
+    margin-right: 5vw;
+    height: 3vh;
+    margin-bottom: 1vh;
+}
+#btn2{
+    background-color: rgb(243, 10, 10);
+    font-size: 12px;
+    border:1px rgb(215, 91, 91);
+    border-radius: 10px;
+    color: rgb(237, 237, 242);
+    margin: auto;
+    height: 3vh;
+}
+
+
+    </style>
+</head>
+<body>
+   <div class="nav">
+    <h1>Our Specialist</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla earum veritatis explicabo reiciendis </p>
+    
+   </div>
+
+   <div class="grid">
+    <div><img src="./image/doctor1.jpg.webp" alt="">
+        <h3>Ethles Davis</h3>
+        <h6>Sr. Faculity Data Science</h6>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+         <button id="btn1">know More</button> <button id="btn2">Book Now</button>
+        </div>
+    <div><img src="./image/doctor1.jpg.webp" alt="">
+        <h3>Ethles Davis</h3>
+        <h6>Sr. Faculity Data Science</h6>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+         <button id="btn1">know More</button> <button id="btn2">Book Now</button></div>
+    <div><img src="./image/doctor1.jpg.webp" alt="">
+        <h3>Ethles Davis</h3>
+        <h6>Sr. Faculity Data Science</h6>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+         <button id="btn1">know More</button> <button id="btn2">Book Now</button></div>
+    <div><img src="./image/doctor1.jpg.webp" alt="">
+        <h3>Ethles Davis</h3>
+        <h6>Sr. Faculity Data Science</h6>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+         <button id="btn1">know More</button> <button id="btn2">Book Now</button></div>
+   </div>
+
+   <div class="grid1">
+    <div><img src="./image/bottom_132437.jpeg" alt="">
+      <h5>Teeth Washing</h5>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, repudiandae?</p>
+    </div>
+    <div><img src="./image/bottom_132437.jpeg" alt="">
+        <h5>Teeth Washing</h5>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, repudiandae?</p>
+      </div>
+      <div><img src="./image/bottom_132437.jpeg" alt="">
+        <h5>Teeth Washing</h5>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, repudiandae?</p>
+      </div>
+      <div><img src="./image/bottom_132437.jpeg" alt="">
+        <h5>Teeth Washing</h5>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, repudiandae?</p>
+      </div>
+      <div><img src="./image/bottom_132437.jpeg" alt="">
+        <h5>Teeth Washing</h5>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, repudiandae?</p>
+      </div>
+      <div><img src="./image/bottom_132437.jpeg" alt="">
+        <h5>Teeth Washing</h5>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, repudiandae?</p>
+      </div>
+    
+   </div>
+</body>
+</html>
